@@ -1,4 +1,11 @@
 // inside style.scss
-@import 'setup';
-@import 'header';
-@import 'footer';
+@import './partials/setup';
+@import './partials/variables';
+@import './partials/typography';
+@import './partials/baseStyle';
+
+//sections
+@import './partials/nav';
+@import './partials/header';
+@import './partials/footer';
+
