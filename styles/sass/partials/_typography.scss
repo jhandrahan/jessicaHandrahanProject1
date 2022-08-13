@@ -1,0 +1,38 @@
+html {
+    font-size: 125%;
+}
+
+body{
+    font-family: $secondaryFont;
+    @include fontSize(39); 
+    color: $primary;
+}
+
+h1{
+    font-family: $primaryFont;
+    color: $tertiary;
+    @include fontSize(261.4)
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    @include fontSize(30);
+    line-height: 29px;
+    letter-spacing: 1.9px;
+}
+
+.logo {
+    font-family: $primaryFont;
+    text-transform: capitalize;
+    @include fontSize(45);
+    letter-spacing: 0.5px;
+}
+
+span{
+    color: $primary;
+    font-family: $secondaryFont;
+    @include fontSize(83.2);
+    letter-spacing: 4px;
+}

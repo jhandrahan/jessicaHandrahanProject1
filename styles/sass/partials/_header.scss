@@ -2,6 +2,48 @@ header {
     background-image: url(../assets/home-image-1.jpg);
     background-size: cover;
     background-position: center;
-        
+    height: 100vh;
+   
 }
 
+nav ul{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+   
+}
+
+nav li{
+    margin: 10px 40px;
+}
+
+li:first-child a{
+    color: $tertiary;
+}
+
+h1,
+span{
+    display: block;
+    z-index: 3;
+}
+
+span{
+    position: relative;
+    bottom: 83px;
+    left: 6px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    
+}
+
+// .headerBox img{
+//     position: relative;
+//     width:100vh;
+    
+//     bottom: 350px;
+//     z-index: 1;
+//     float: right;
+// }

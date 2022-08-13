@@ -235,6 +235,53 @@ html {
   overflow: hidden;
 }
 
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: "Chathura", sans-serif;
+  font-size: 39px;
+  font-size: 1.95rem;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Tulpen One", cursive;
+  color: #ff8327;
+  font-size: 261.4px;
+  font-size: 13.07rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 30px;
+  font-size: 1.5rem;
+  line-height: 29px;
+  letter-spacing: 1.9px;
+}
+
+.logo {
+  font-family: "Tulpen One", cursive;
+  text-transform: capitalize;
+  font-size: 45px;
+  font-size: 2.25rem;
+  letter-spacing: 0.5px;
+}
+
+span {
+  color: #ffffff;
+  font-family: "Chathura", sans-serif;
+  font-size: 83.2px;
+  font-size: 4.16rem;
+  letter-spacing: 4px;
+}
+
+body {
+  background-color: #111010;
+}
+
 ul {
   list-style: none;
   margin: 0;
@@ -250,4 +297,44 @@ header {
   background-image: url(../assets/home-image-1.jpg);
   background-size: cover;
   background-position: center;
+  height: 100vh;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav li {
+  margin: 10px 40px;
+}
+
+li:first-child a {
+  color: #ff8327;
+}
+
+h1,
+span {
+  display: block;
+  z-index: 3;
+}
+
+span {
+  position: relative;
+  bottom: 83px;
+  left: 6px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
