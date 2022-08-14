@@ -443,6 +443,31 @@ i {
   margin-top: 40px;
 }
 
+.flexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px 0;
+}
+.flexContainer h2 {
+  margin: 0;
+  color: #ff8327;
+}
+.flexContainer p {
+  margin: 0 0 30px 0;
+}
+
+.imgContainer img {
+  margin-right: 100px;
+  margin-top: 20px;
+  -webkit-box-shadow: -20px 20px 1px #ff8327;
+          box-shadow: -20px 20px 1px #ff8327;
+}
+
+.textContainer {
+  width: 60%;
+}
+
 .gallery {
   background-color: #220303;
 }
@@ -457,4 +482,8 @@ i {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 100px 0;
+}
+
+footer {
+  text-align: center;
 }
