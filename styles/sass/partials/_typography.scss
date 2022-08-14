@@ -43,7 +43,12 @@ p{
 }
 
 button{
+    color: $primary;
     font-family: $primaryFont;
     @include fontSize(30);
     letter-spacing: 1px;
+}
+
+.party h2 {
+    color: $tertiary;
 }

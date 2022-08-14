@@ -284,10 +284,15 @@ p {
 }
 
 button {
+  color: #ffffff;
   font-family: "Tulpen One", cursive;
   font-size: 30px;
   font-size: 1.5rem;
   letter-spacing: 1px;
+}
+
+.party h2 {
+  color: #ff8327;
 }
 
 body {
@@ -312,7 +317,6 @@ img {
 }
 
 button {
-  color: #ffffff;
   background-color: #bf2603;
   border: none;
   cursor: pointer;
@@ -408,4 +412,33 @@ i {
   background-color: #bf2603;
   border: 3px solid #bf2603;
   border-radius: 50%;
+}
+
+.location {
+  background-color: #220303;
+}
+
+.party {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.party h2 {
+  margin: 10px 0;
+}
+.party p {
+  margin: 0;
+  padding: 0 100px;
+  text-align: center;
+}
+.party button {
+  margin-top: 40px;
 }
