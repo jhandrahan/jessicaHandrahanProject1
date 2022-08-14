@@ -36,3 +36,8 @@ span{
     @include fontSize(83.2);
     letter-spacing: 4px;
 }
+
+p{
+    letter-spacing: 1.9px;
+    line-height: 30px;
+}

@@ -2,7 +2,7 @@ header {
     background-image: url(../assets/home-image-1.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
    
 }
 
@@ -23,8 +23,10 @@ li:first-child a{
 
 h1,
 span{
+    margin-bottom: 0;
     display: block;
     z-index: 3;
+    
 }
 
 span{
@@ -39,11 +41,15 @@ span{
     
 }
 
-// .headerBox img{
-//     position: relative;
-//     width:100vh;
+.headerBox{
+    position: relative;
+}
+
+.headerBox img{
+    position: absolute;
+    width:100vh;
+    bottom: -100px;
+    right: 0;
+    z-index: 1;
     
-//     bottom: 350px;
-//     z-index: 1;
-//     float: right;
-// }
+}

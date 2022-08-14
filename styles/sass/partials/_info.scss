@@ -1,0 +1,33 @@
+.info{
+    padding: 100px 0;
+}
+.infoContent{
+    display: flex;
+    flex-wrap: wrap;
+
+    h2{
+        margin-bottom: 0;
+    }
+
+    p{
+        margin-left: 50px;
+        margin-top: 0;
+        padding-right: 15px;
+        
+        
+    }
+    
+}
+
+.infoContent li {
+    width: 50%;
+}
+
+i {
+    font-size: 1rem;
+    padding: 5px;
+    background-color: $secondary;
+    border: 3px solid $secondary;
+    border-radius: 50%;
+}
+
