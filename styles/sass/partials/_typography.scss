@@ -41,3 +41,9 @@ p{
     letter-spacing: 1.9px;
     line-height: 30px;
 }
+
+button{
+    font-family: $primaryFont;
+    @include fontSize(30);
+    letter-spacing: 1px;
+}

@@ -19,3 +19,12 @@ img {
     width: 90%;
     margin: 0 auto;
 }
+
+button {
+    color: $primary;
+    background-color: $secondary;
+    border: none;
+    cursor: pointer;
+    padding: 2px 30px;
+
+}

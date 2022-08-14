@@ -283,6 +283,13 @@ p {
   line-height: 30px;
 }
 
+button {
+  font-family: "Tulpen One", cursive;
+  font-size: 30px;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
 body {
   background-color: #111010;
 }
@@ -302,6 +309,14 @@ img {
   max-width: 1280px;
   width: 90%;
   margin: 0 auto;
+}
+
+button {
+  color: #ffffff;
+  background-color: #bf2603;
+  border: none;
+  cursor: pointer;
+  padding: 2px 30px;
 }
 
 header {
