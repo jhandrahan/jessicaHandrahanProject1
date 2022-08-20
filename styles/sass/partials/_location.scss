@@ -1,3 +1,57 @@
 .location{
     background-color: $quinary;
+    position: relative;
+}
+
+.flexBox{
+    display: flex;
+}
+
+.textContainer{
+    width: 60%;
+}
+
+//plan ahead
+.leftImg img {
+    box-shadow: 20px 20px 1px $tertiary;
+    position: relative;
+    bottom: 50px;
+}
+
+.planAhead{
+    padding: 10px 100px 20px 220px;
+    margin-top: 90px;
+}
+
+.planAhead h2{
+    margin: 0;
+}
+.planAhead p{
+    margin: 0px 0px 30px 0px;
+}
+
+//newlocations
+.rightImg img {
+    box-shadow: -20px 20px 1px $tertiary;
+    position: relative;
+    top: 65px;
+}
+
+.newLocations{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    padding: 20px 195px 0px 105px;
+}
+
+.newLocations h2{
+    margin: 0px;
+    text-align: right;
+}
+
+.newLocations p {
+    margin: 0px 0px 30px 0px;
+}
+
+.btn1{
+    text-align: right;
 }

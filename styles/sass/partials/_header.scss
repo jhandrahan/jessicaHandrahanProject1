@@ -3,7 +3,8 @@ header {
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-   
+   width: 100vw;
+   position: relative;
 }
 
 nav ul{
@@ -42,14 +43,14 @@ span{
 }
 
 .headerBox{
-    position: relative;
+    position: absolute;
+    width: 50%;
+    bottom: -100px;
+    right: 0;
 }
 
 .headerBox img{
-    position: absolute;
-    width:100vh;
-    bottom: -100px;
-    right: 0;
+    width:100%;
     z-index: 1;
     
 }
