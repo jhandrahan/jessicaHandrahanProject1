@@ -7,21 +7,6 @@ header {
    position: relative;
 }
 
-nav ul{
-    display: flex;
-    text-transform: uppercase;
-    justify-content: center;
-   
-}
-
-nav li{
-    margin: 10px 40px;
-}
-
-li:first-child a{
-    color: $tertiary;
-}
-
 h1,
 span{
     margin-bottom: 0;

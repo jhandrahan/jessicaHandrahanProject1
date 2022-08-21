@@ -1,3 +1,20 @@
-.navBar {
-    
+nav ul {
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+
+}
+
+nav li {
+    margin: 10px 40px;
+}
+
+li:first-child a {
+    color: $tertiary;
+
+    &:hover,
+    &:focus {
+        color: $secondary;
+        text-decoration: underline;
+    }
 }

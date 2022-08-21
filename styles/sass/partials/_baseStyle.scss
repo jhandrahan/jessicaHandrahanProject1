@@ -9,6 +9,15 @@ ul {
     
 }
 
+a{
+    &:hover,
+    &:focus {
+        color: $secondary;
+        text-decoration: underline;
+    }
+}
+
+
 img {
     max-width: 100%;
     display: block; //prevent underneath spacing
@@ -26,6 +35,13 @@ button {
     border: none;
     cursor: pointer;
     padding: 2px 30px;
+    transition: 0.3s;
+
+        &:hover,
+        &:focus {
+            background-color: $primary;
+            color: $secondary;
+        }
 
 }
 

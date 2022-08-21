@@ -1,0 +1,51 @@
+@media (max-width: 1000px){
+
+//header section
+    .headerBox img{
+        display: none;
+    }
+
+
+//location section
+    .flexBox{
+        flex-direction: column;
+        margin: 0 100px;
+
+        .textContainer{
+            width: 100%;
+            padding: 0;
+            text-align: center;
+        }
+
+        .textContainer h2{
+            text-align: center;
+        }
+
+        .btn1{
+            text-align: center;
+        }
+    }
+
+
+//events section
+
+    .flexContainer{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        
+        .textContainerEvents{
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+//gallery section
+
+    .galleryFlex{
+        justify-content: center;
+
+        
+    }
+
+}

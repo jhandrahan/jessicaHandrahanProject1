@@ -305,6 +305,11 @@ ul {
   padding: 0;
 }
 
+a:hover, a:focus {
+  color: #bf2603;
+  text-decoration: underline;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -321,15 +326,12 @@ button {
   border: none;
   cursor: pointer;
   padding: 2px 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
-
-header {
-  background-image: url(../assets/home-image-1.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
-  width: 100vw;
-  position: relative;
+button:hover, button:focus {
+  background-color: #ffffff;
+  color: #bf2603;
 }
 
 nav ul {
@@ -348,6 +350,19 @@ nav li {
 
 li:first-child a {
   color: #ff8327;
+}
+li:first-child a:hover, li:first-child a:focus {
+  color: #bf2603;
+  text-decoration: underline;
+}
+
+header {
+  background-image: url(../assets/home-image-1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
 }
 
 h1,
@@ -545,4 +560,45 @@ i {
 
 footer {
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .headerBox img {
+    display: none;
+  }
+  .flexBox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 100px;
+  }
+  .flexBox .textContainer {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  .flexBox .textContainer h2 {
+    text-align: center;
+  }
+  .flexBox .btn1 {
+    text-align: center;
+  }
+  .flexContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .flexContainer .textContainerEvents {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .galleryFlex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
