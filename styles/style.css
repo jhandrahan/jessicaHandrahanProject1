@@ -399,6 +399,101 @@ span {
   z-index: 1;
 }
 
+.contactHeader {
+  background-image: url(../assets/contact-header-1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  width: 100vw;
+}
+.contactHeader li:last-child a {
+  color: #ff8327;
+}
+.contactHeader li:first-child a {
+  color: #ffffff;
+}
+.contactHeader h2 {
+  letter-spacing: 0.2rem;
+  margin-top: 90px;
+  font-size: 3rem;
+}
+
+.contactContent {
+  margin: 100px 0px;
+}
+.contactContent ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contactContent i {
+  font-size: 1rem;
+  margin: 0px 5px;
+}
+
+.contactInfo {
+  margin-top: 15px;
+}
+
+.contactInfo p {
+  margin: 0;
+}
+
+.form {
+  background-color: #220303;
+  max-width: 800px;
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  padding: 35px 35px;
+  -webkit-box-shadow: 20px 20px 1px #ff8327;
+          box-shadow: 20px 20px 1px #ff8327;
+}
+
+input,
+textarea,
+select {
+  background-color: #220303;
+  color: #ffffff;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  font-family: "Chathura", sans-serif;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, select::-webkit-input-placeholder {
+  opacity: 1;
+}
+input::-moz-placeholder, textarea::-moz-placeholder, select::-moz-placeholder {
+  opacity: 1;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder, select:-ms-input-placeholder {
+  opacity: 1;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder, select::-ms-input-placeholder {
+  opacity: 1;
+}
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+  opacity: 1;
+}
+
+input {
+  width: 49%;
+  padding-left: 15px;
+}
+
+textarea {
+  border: 1px solid #ffffff;
+  margin-top: 35px;
+  width: 100%;
+  padding-left: 15px;
+}
+
+.formBtn {
+  width: 100%;
+  margin-top: 35px;
+}
+
 .info {
   padding: 100px 0;
 }
@@ -423,7 +518,7 @@ span {
   width: 50%;
 }
 
-i {
+.infoContent i {
   font-size: 1rem;
   padding: 5px;
   background-color: #bf2603;
