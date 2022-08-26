@@ -697,3 +697,53 @@ footer {
             justify-content: center;
   }
 }
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+}
+@media (max-width: 470px) {
+  nav li {
+    margin: 10px;
+  }
+  h1 {
+    text-align: center;
+  }
+  .info {
+    padding: 50px 0;
+  }
+  .infoContent li {
+    width: 100%;
+  }
+  .infoContent h2 {
+    margin-top: 0;
+  }
+  .planAhead {
+    margin-top: 0;
+  }
+  .flexBox {
+    margin: 0;
+  }
+  .newLocations {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .party {
+    margin-top: 30px;
+  }
+  .party p {
+    padding: 0;
+  }
+  .flexContainer {
+    margin: 0;
+  }
+  .imgContainer img {
+    margin-right: 0;
+  }
+  .galleryFlex {
+    padding: 30px 0;
+  }
+  .galleryFlex li {
+    margin-top: 10px;
+  }
+}

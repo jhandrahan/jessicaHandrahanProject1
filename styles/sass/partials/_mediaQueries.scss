@@ -49,3 +49,75 @@
     }
 
 }
+
+@media(max-width: 600px){
+    .logo{
+        display: none;
+    }
+}
+
+
+@media(max-width: 470px){
+    //header 
+   nav li{
+    margin: 10px;
+   }
+
+   h1{
+    
+    text-align: center;
+   }
+
+//info section
+
+   .info{
+    padding: 50px 0;
+   }
+
+  .infoContent li {
+      width: 100%;
+  }
+
+    .infoContent h2{
+        margin-top: 0;
+    }
+
+//location section
+    .planAhead{
+        margin-top: 0;
+    }
+
+    .flexBox{
+        margin: 0;
+    }
+    .newLocations{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+//party section
+    .party{
+        margin-top: 30px;
+    }
+
+    .party p{
+        padding: 0;
+    }
+
+//events section
+    .flexContainer{
+        margin: 0;
+    }
+    .imgContainer img{
+        margin-right: 0;
+    }
+
+//gallery Section
+    .galleryFlex{
+        padding: 30px 0;
+    }
+
+    .galleryFlex li{
+        margin-top: 10px;
+    }
+}
