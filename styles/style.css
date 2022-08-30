@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -655,6 +656,128 @@ textarea {
 
 footer {
   text-align: center;
+}
+
+.blogHeader {
+  background-image: url(../assets/blog-header-1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  width: 100vw;
+}
+.blogHeader li:nth-child(4) {
+  color: #ff8327;
+}
+.blogHeader li:first-child a {
+  color: #ffffff;
+}
+.blogHeader h2 {
+  letter-spacing: 0.2rem;
+  margin-top: 90px;
+  font-size: 3rem;
+  margin-left: 40px;
+}
+
+.blogContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+aside {
+  background-color: #220303;
+  margin: 90px 45px auto 40px;
+  min-width: 30%;
+}
+
+.imgBlogContainer img {
+  position: relative;
+  right: 40px;
+  bottom: 20px;
+}
+
+.asideTextContainer {
+  display: inline-block;
+  padding: 0 15px 15px 15px;
+}
+.asideTextContainer h2, .asideTextContainer p {
+  margin: 0;
+}
+.asideTextContainer p {
+  margin-bottom: -15px;
+}
+.asideTextContainer a {
+  color: #ff8327;
+}
+.asideTextContainer ul li::before {
+  content: "•";
+  color: #bf2603;
+  display: inline-block;
+  font-weight: bold;
+  width: 1rem;
+}
+.asideTextContainer ul li {
+  margin-left: 10px;
+  line-height: 1.5rem;
+}
+
+.blogMenu {
+  margin-left: 60px;
+}
+
+.menuImgContainer img {
+  position: relative;
+  bottom: 100px;
+  right: -20px;
+  -webkit-box-shadow: -20px 20px 1px #ff8327;
+          box-shadow: -20px 20px 1px #ff8327;
+}
+
+.menuTextContainer {
+  border-bottom: 5px solid #ff8327;
+  border-left: 5px solid #ff8327;
+  margin-top: -130px;
+  padding: 60px 90px;
+}
+.menuTextContainer h2 {
+  margin-bottom: 0;
+}
+.menuTextContainer h3 {
+  color: #ff8327;
+  margin-top: -15px;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+
+.comment {
+  margin-left: 46%;
+  margin-right: 2%;
+}
+.comment h3 {
+  color: #ff8327;
+  letter-spacing: 1px;
+  margin: 0;
+}
+.comment p {
+  margin: 0;
+}
+
+.commentFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.commentFlexContainer img {
+  position: absolute;
+}
+
+.commentTextContainer {
+  margin: -15px 0 100px 125px;
+}
+
+.commentForm {
+  margin-left: 46%;
+  margin-right: 2%;
 }
 
 @media (max-width: 1000px) {

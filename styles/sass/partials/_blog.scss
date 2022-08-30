@@ -1,0 +1,131 @@
+.blogHeader{
+    background-image: url(../assets/blog-header-1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    width: 100vw;
+
+    li:nth-child(4) {
+        color: $tertiary;
+    }
+
+    li:first-child a {
+        color: $primary;
+    }
+
+    h2 {
+        letter-spacing: 0.2rem;
+        margin-top: 90px;
+        font-size: 3rem;
+        margin-left: 40px;
+    }
+}
+
+.blogContainer{
+    display: flex;
+}
+
+aside{
+    background-color: $quinary;
+    margin:90px 45px auto 40px;
+    min-width: 30%;
+    
+}
+.imgBlogContainer img{
+   position: relative;
+   right: 40px;
+   bottom: 20px;
+}
+
+.asideTextContainer{
+    display: inline-block;
+    padding: 0 15px 15px 15px;
+
+    h2,p{
+        margin: 0;
+    }
+    p{
+        margin-bottom: -15px;
+    }
+
+    a{
+        color: $tertiary;
+    }
+
+    ul li::before{
+      content: "•";
+      color: $secondary;
+      display: inline-block;
+      font-weight: bold;
+      width: 1rem;
+    }
+
+    ul li{
+        margin-left: 10px;
+        line-height: 1.5rem;
+    }
+}
+
+// new menu syling
+.blogMenu{
+    margin-left: 60px;
+    
+}
+.menuImgContainer img{
+    position: relative;
+    bottom: 100px;
+    right:-20px;
+    box-shadow: -20px 20px 1px $tertiary;
+}
+.menuTextContainer{
+    border-bottom: 5px solid $tertiary;
+    border-left: 5px solid $tertiary;
+    margin-top: -130px;
+    padding: 60px 90px;
+
+    h2{
+        margin-bottom: 0;
+    }
+
+    h3{
+        color: $tertiary;
+        margin-top: -15px;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+    }
+}
+
+//comment section styling
+
+.comment{
+    margin-left: 46%;
+    margin-right: 2%;
+
+    h3{
+    color: $tertiary;
+    letter-spacing: 1px;
+    margin: 0;
+    }
+
+    p{
+    margin: 0;
+    }
+}
+
+.commentFlexContainer {
+    display: flex;
+
+    img{
+        position: absolute;
+    }
+}
+
+.commentTextContainer {
+    margin: -15px 0 100px 125px;
+}
+
+//Form styling
+.commentForm{
+    margin-left: 46%;
+    margin-right: 2%;
+}

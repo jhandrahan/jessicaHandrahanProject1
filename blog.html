@@ -15,7 +15,7 @@
     <title>Blog</title>
 </head>
 <body>
-    <header class="contactHeader">
+    <header class="blogHeader">
         <div class="wrapper">
             <nav class="navBar">
                 <ul>
@@ -29,56 +29,73 @@
             <h2>Blog</h2>
         </div>
     </header>
-    <aside>
-        <img src="./assets/sidebar-image.jpg" alt="glass of beer filling up from the tap at a bar">
-        <h2>Our misson</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, aliquam. Odio ipsa enim praesentium consequuntur ipsam suscipit. Commodi totam culpa consectetur laborum excepturi quasi soluta illo nihil dolorem, obcaecati animi?</p>
-        <a href="#">Find out more.</a>
-        <h2>Recent Posts</h2>
-        <ul>
-            <li>Donec facilisis tortor ut</li>
-            <li>Augue lacinia at viverra</li>
-            <li>Semper sed sapien metus</li>
-            <li>Scelerisque nec pharetra id</li>
-        </ul>
-    </aside>
-    <section>
-        <img src="./assets/post-image.jpg" alt="">
-        <h2>New menu!</h2>
-        <h3>Monday January 30, 2019 by Saron</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quasi dicta magni ut odit incidunt quas pariatur obcaecati eos ex! Totam dolor omnis ab pariatur, velit ad debitis facere impedit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repudiandae molestias suscipit necessitatibus obcaecati provident libero facilis quaerat assumenda repellendus? Asperiores facilis explicabo rerum maiores inventore vero officiis, quos dolores?</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis quia et porro maxime laboriosam fugit repellat accusamus, molestias libero eos fugiat quis cupiditate ipsa eveniet nostrum quos quam at! Cumque.
-        Debitis eveniet corrupti fuga? Nihil similique placeat aperiam fuga accusamus distinctio, nisi praesentium perspiciatis earum inventore doloribus animi minima quis magnam sapiente aspernatur velit omnis? Magni qui non corporis voluptate.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aspernatur laudantium dolorem, repellat veritatis illo blanditiis magnam ipsam in enim nobis asperiores nostrum natus cupiditate autem aliquam reiciendis quos excepturi?</p>
-    </section>
-    <section>
-        <h2>Comments:</h2>
-        <div>
-            <img src="./assets/comment-image-1.jpg" alt="african american women face">
-            <h3>Tuesday October 9th, 2019 by Sulaire</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates libero dolore alias quos laudantium aperiam magni ad perspiciatis illo pariatur.</p>
+    <main>
+        <div class="blogContainer">
+            <aside>
+                <div class="imgBlogContainer">
+                 <img src="./assets/sidebar-image.jpg" alt="glass of beer filling up from the tap at a bar">
+                </div>
+                <div class="asideTextContainer">
+                    <h2>Our misson</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, aliquam. Odio ipsa enim suscipit. </p>
+                    <a href="#">Find out more.</a>
+                    <h2>Recent Posts</h2>
+                    <ul class="postList">
+                        <li>Donec facilisis tortor ut</li>
+                        <li>Augue lacinia at viverra</li>
+                        <li>Semper sed sapien metus</li>
+                        <li>Scelerisque nec pharetra id</li>
+                    </ul>
+                </div>
+            </aside>
+            <section class="blogMenu">
+                <div class="menuImgContainer">
+                    <img src="./assets/post-image.jpg" alt="">
+                </div>
+                
+                <div class="menuTextContainer">
+                    <h2>New menu!</h2>
+                    <h3>Monday January 30, 2019 by Saron</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quasi dicta magni ut odit incidunt quas pariatur obcaecati eos ex! Totam dolor omnis ab pariatur, velit ad debitis facere impedit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repudiandae molestias suscipit necessitatibus obcaecati provident libero facilis quaerat assumenda repellendus? Asperiores facilis explicabo rerum maiores inventore vero officiis, quos dolores?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis quia et porro maxime laboriosam fugit repellat accusamus, molestias libero eos fugiat quis cupiditate ipsa eveniet nostrum quos quam at! Cumque.
+                    Debitis eveniet corrupti fuga? Nihil similique placeat aperiam fuga accusamus distinctio, nisi praesentium perspiciatis earum inventore doloribus animi minima quis magnam sapiente aspernatur velit omnis? Magni qui non corporis voluptate.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis aspernatur laudantium dolorem, repellat veritatis illo blanditiis magnam ipsam in enim nobis asperiores nostrum natus cupiditate autem aliquam reiciendis quos excepturi?</p>
+                </div>
+            </section>
         </div>
-        <div>
-            <img src="./assets/comment-image-2.jpg" alt="caucasian man with beard and hand on forehead">
-            <h3>Wednesday October 10th, 2019 by Renzo</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem velit libero corporis provident. Excepturi facilis molestias rem a dicta?</p>
-        </div>
-    </section>
-    <section>
-        <form action="" method="" class="contactForm" name="contactForm">
-        
-            <label for="name" class="sr-only">Name</label>
-            <input type="text" id="name" placeholder="Name">
-        
-            <label for="email" class="sr-only">Email address</label>
-            <input type="text" id="email" placeholder="Email address">
-        
-            <label for="message" class="sr-only">Message</label>
-            <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
-        
-            <button class="formBtn">Post Comment</button>
+        <section class="comment">
+            <h2>Comments:</h2>
+            <div class="commentFlexContainer">
+                <img src="./assets/comment-image-1.jpg" alt="african american women face">
+                <div class="commentTextContainer">
+                    <h3>Tuesday October 9th, 2019 by Sulaire</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates libero dolore alias quos laudantium aperiam magni ad perspiciatis illo pariatur.</p>
+                </div>
+            </div>
+            <div class="commentFlexContainer">
+                <img src="./assets/comment-image-2.jpg" alt="caucasian man with beard and hand on forehead">
+                <div class="commentTextContainer">
+                    <h3>Wednesday October 10th, 2019 by Renzo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem velit libero corporis provident. Excepturi facilis molestias rem a dicta?</p>
+                </div>
+            </div>
+        </section>
+        <section class="commentForm">
+            <form action="" method="" class="contactForm" name="contactForm">
+            
+                <label for="name" class="sr-only">Name</label>
+                <input type="text" id="name" placeholder="Name">
+            
+                <label for="email" class="sr-only">Email address</label>
+                <input type="text" id="email" placeholder="Email address">
+            
+                <label for="message" class="sr-only">Message</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+            
+                <button class="formBtn">Post Comment</button>
 
-    </section>
+        </section>
+    </main>
 </body>
 </html>
