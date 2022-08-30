@@ -124,8 +124,22 @@ aside{
     margin: -15px 0 100px 125px;
 }
 
-//Form styling
+//Comment Form styling
 .commentForm{
     margin-left: 46%;
     margin-right: 2%;
+    margin-bottom: 100px;
+
+    input, textarea, select{
+        background-color: $quaternary;
+        border-bottom: 1px solid $tertiary;
+    }
+
+    input{
+        padding-left: 25px;
+    }
+    textarea{
+        border: 1px solid $tertiary;
+        padding: 25px;
+    }
 }

@@ -778,6 +778,18 @@ aside {
 .commentForm {
   margin-left: 46%;
   margin-right: 2%;
+  margin-bottom: 100px;
+}
+.commentForm input, .commentForm textarea, .commentForm select {
+  background-color: #111010;
+  border-bottom: 1px solid #ff8327;
+}
+.commentForm input {
+  padding-left: 25px;
+}
+.commentForm textarea {
+  border: 1px solid #ff8327;
+  padding: 25px;
 }
 
 @media (max-width: 1000px) {
