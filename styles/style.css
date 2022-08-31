@@ -641,8 +641,7 @@ textarea {
 }
 
 .imgContainer img {
-  margin-right: 100px;
-  margin-top: 20px;
+  margin: 20px 100px 0 20px;
   -webkit-box-shadow: -20px 20px 1px #ff8327;
           box-shadow: -20px 20px 1px #ff8327;
 }
@@ -819,7 +818,7 @@ aside {
   }
   .flexBox .textContainer {
     width: 100%;
-    padding: 0;
+    padding: 0 25px;
     text-align: center;
   }
   .flexBox .textContainer h2 {
@@ -932,7 +931,7 @@ aside {
   .flexBox {
     margin: 0;
   }
-  .newLocations {
+  .textContainer {
     margin-top: 50px;
     margin-bottom: 20px;
   }
@@ -957,5 +956,10 @@ aside {
   }
   .galleryFlex li {
     margin-top: 20px;
+  }
+}
+@media (max-width: 430px) {
+  h1 {
+    font-size: 9.5rem;
   }
 }
