@@ -427,6 +427,13 @@ span {
   display: -ms-flexbox;
   display: flex;
 }
+.contactContent ul a {
+  color: #ffffff;
+}
+.contactContent ul a:hover, .contactContent ul a:focus {
+  color: #bf2603;
+  text-decoration: underline;
+}
 .contactContent i {
   font-size: 1rem;
   margin: 0px 5px;
@@ -778,7 +785,7 @@ aside {
 .commentForm {
   margin-left: 46%;
   margin-right: 2%;
-  margin-bottom: 100pxgit;
+  margin-bottom: 100px;
 }
 .commentForm input, .commentForm textarea, .commentForm select {
   background-color: #111010;
@@ -830,6 +837,22 @@ aside {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .contactContent {
+    margin: 0;
+  }
+  .contactContent .contactInfo {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .contactHeader h2 {
+    text-align: center;
+  }
+  .form {
+    position: static;
+  }
+  .form input {
+    width: 100%;
   }
 }
 @media (max-width: 600px) {

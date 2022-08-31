@@ -24,6 +24,16 @@
 
     ul{
         display: flex;
+
+        a{
+            color: $primary;
+
+            &:hover,
+            &:focus {
+            color: $secondary;
+            text-decoration: underline;
+            }
+        }
     }
 
     i{
@@ -31,6 +41,8 @@
         margin: 0px 5px;
         
     } 
+
+    
 }
 .contactInfo{
     margin-top: 15px;
@@ -41,7 +53,7 @@
     
     
 }
-//form styling
+//Contact form styling
 .form{
     background-color: $quinary;
     max-width: 800px;

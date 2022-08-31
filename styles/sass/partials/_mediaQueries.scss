@@ -1,10 +1,9 @@
 @media (max-width: 1000px){
-
+//Index Page
 //header section
     .headerBox img{
         display: none;
     }
-
 
 //location section
     .flexBox{
@@ -48,7 +47,35 @@
         
     }
 
+//Contact Page
+    .contactContent{
+        margin: 0;
+
+        .contactInfo{
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+    }
+    .contactHeader h2{
+        text-align: center;
+    }
+
+//Contact Form
+    .form{
+        position: static;
+
+        input{
+            width: 100%;
+            
+        }
+    }
+
+
 }
+
+
+
+
 
 @media(max-width: 600px){
     .logo{
