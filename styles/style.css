@@ -962,4 +962,7 @@ aside {
   h1 {
     font-size: 9.5rem;
   }
+  span {
+    bottom: 70px;
+  }
 }
