@@ -254,6 +254,11 @@ h1 {
   font-size: 13.07rem;
 }
 
+h2 {
+  font-size: 68px;
+  font-size: 3.4rem;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -290,10 +295,6 @@ button {
   font-size: 30px;
   font-size: 1.5rem;
   letter-spacing: 1px;
-}
-
-.party h2 {
-  color: #ff8327;
 }
 
 footer {
@@ -616,6 +617,7 @@ textarea {
 }
 .party h2 {
   margin: 10px 0;
+  color: #ff8327;
 }
 .party p {
   margin: 0;
@@ -902,6 +904,9 @@ aside {
 .commentForm {
     margin-left: 2%;
     margin-right: 2%;
+  }
+  .commentForm input {
+    width: 100%;
   }
 }
 @media (max-width: 600px) {

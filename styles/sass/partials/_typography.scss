@@ -15,6 +15,10 @@ h1{
 
 }
 
+h2{
+    @include fontSize(68);
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -47,10 +51,6 @@ button{
     font-family: $primaryFont;
     @include fontSize(30);
     letter-spacing: 1px;
-}
-
-.party h2 {
-    color: $tertiary;
 }
 
 footer{
