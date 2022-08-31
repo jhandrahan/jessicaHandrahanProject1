@@ -855,6 +855,46 @@ aside {
     width: 100%;
   }
 }
+@media (max-width: 800px) {
+  .blogHeader h2 {
+    text-align: center;
+  }
+  .blogContainer {
+    display: contents;
+  }
+  .blogContainer aside {
+    margin: 0;
+    padding: 50px 0;
+  }
+  .blogContainer .imgBlogContainer img {
+    position: static;
+    margin: auto;
+  }
+  .blogContainer .asideTextContainer {
+    text-align: center;
+  }
+  .blogMenu {
+    margin: 0;
+  }
+  .blogMenu .menuImgContainer img {
+    position: static;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .blogMenu .menuTextContainer {
+    border: 5px solid #ff8327;
+    margin: 0;
+    padding: 0 25px;
+  }
+  .blogMenu .menuTextContainer h2 {
+    margin-top: 5px;
+  }
+  .comment,
+.commentForm {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
 @media (max-width: 600px) {
   .logo {
     display: none;
@@ -892,6 +932,10 @@ aside {
   .party p {
     padding: 0;
   }
+  .events {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
   .flexContainer {
     margin: 0;
   }
@@ -902,6 +946,6 @@ aside {
     padding: 30px 0;
   }
   .galleryFlex li {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
