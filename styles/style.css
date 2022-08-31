@@ -296,6 +296,12 @@ button {
   color: #ff8327;
 }
 
+footer {
+  font-size: 25px;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+
 body {
   background-color: #111010;
 }
@@ -663,6 +669,7 @@ textarea {
 
 footer {
   text-align: center;
+  margin: 5px 0;
 }
 
 .blogHeader {
@@ -850,6 +857,8 @@ aside {
   }
   .form {
     position: static;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .form input {
     width: 100%;
@@ -857,6 +866,7 @@ aside {
 }
 @media (max-width: 800px) {
   .blogHeader h2 {
+    margin-left: 0;
     text-align: center;
   }
   .blogContainer {

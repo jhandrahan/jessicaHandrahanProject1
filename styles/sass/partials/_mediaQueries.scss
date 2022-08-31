@@ -63,6 +63,7 @@
 //Contact Form
     .form{
         position: static;
+        box-shadow: none;
 
         input{
             width: 100%;
@@ -75,6 +76,7 @@
 //blog page 
 @media(max-width: 800px){
     .blogHeader h2{
+        margin-left: 0;
         text-align: center;
         
     }

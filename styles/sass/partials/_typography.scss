@@ -53,3 +53,7 @@ button{
     color: $tertiary;
 }
 
+footer{
+    @include fontSize(25);
+    letter-spacing: 1px;
+}
