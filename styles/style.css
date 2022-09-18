@@ -807,11 +807,6 @@ aside {
   padding: 25px;
 }
 
-@media (max-width: 2000px) {
-  #hamburger {
-    display: none;
-  }
-}
 @media (max-width: 1000px) {
   .headerBox img {
     display: none;
@@ -925,35 +920,6 @@ aside {
   }
   h1 {
     text-align: center;
-  }
-  #hamburger {
-    display: block;
-  }
-  .slideOutNav {
-    background-color: black;
-    color: #fff;
-    min-height: 100vh;
-    position: fixed;
-    top: 0;
-    z-index: 20;
-    left: -750px;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-  }
-  .slideOutNav .navBar ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .slideOutNav .navBar ul .logo {
-    display: none;
-  }
-  .slideOutNav.open {
-    left: 0;
   }
   .info {
     padding: 50px 0;
