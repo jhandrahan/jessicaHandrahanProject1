@@ -9,5 +9,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
     closeHamburgerButton.addEventListener('click', (event) =>{
         hamburgerMenu.classList.remove('open');
+        console.log("test");
     });
 })
