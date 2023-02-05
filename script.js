@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     //prevent form default settings
     formElement.addEventListener('submit', function(e){
         e.preventDefault();
-        // console.log(inputElement)
+        console.log(formElement)
         const name = nameInput.value;
         console.log(name);
         const comment = commentInput.value;
