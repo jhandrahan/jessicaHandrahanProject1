@@ -42,6 +42,13 @@ button {
             background-color: $primary;
             color: $secondary;
         }
-
 }
 
+#hamburger{
+    background-color: black;
+        &:hover,
+        &:focus {
+            background-color: black;
+            color: $secondary;
+        }
+}

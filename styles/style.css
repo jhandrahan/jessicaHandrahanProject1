@@ -342,6 +342,14 @@ button:hover, button:focus {
   color: #bf2603;
 }
 
+#hamburger {
+  background-color: black;
+}
+#hamburger:hover, #hamburger:focus {
+  background-color: black;
+  color: #bf2603;
+}
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -424,6 +432,7 @@ span {
   letter-spacing: 0.2rem;
   margin-top: 90px;
   font-size: 3rem;
+  margin-left: 40px;
 }
 
 .contactContent {
