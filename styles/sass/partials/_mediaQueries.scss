@@ -1,3 +1,8 @@
+@media (max-width: 2000px) {
+    #hamburger {
+        display: none;
+    }
+}
 @media (max-width: 1000px){
 //Index Page
 //header section
@@ -146,6 +151,34 @@
    h1{
     
     text-align: center;
+   }
+   #hamburger {
+       display: block;
+
+   }
+
+   .slideOutNav {
+       background-color: black;
+       color: #fff;
+       min-height: 100vh;
+       position: fixed;
+       top: 0;
+       z-index: 20;
+       left: -750px;
+       transition: 0.5s;
+
+       .navBar ul {
+           display: flex;
+           flex-direction: column;
+
+           .logo {
+               display: none;
+           }
+       }
+   }
+
+   .slideOutNav.open {
+       left: 0;
    }
 
 //info section

@@ -1,14 +1,14 @@
-document.addEventListener("DOMContentLoaded", ()=>{
-//hamburger Menu
+document.addEventListener("DOMContentLoaded", () => {
+    //hamburger Menu
     const hamburgerButton = document.querySelector('#hamburger');
     const closeHamburgerButton = document.querySelector('.closeMenu');
     const hamburgerMenu = document.querySelector('.slideOutNav');
 
-    hamburgerButton.addEventListener('click', (event)=>{
-        hamburgerMenu.classList.add('open');   
+    hamburgerButton.addEventListener('click', (event) => {
+        hamburgerMenu.classList.add('open');
     });
 
-    closeHamburgerButton.addEventListener('click', (event) =>{
+    closeHamburgerButton.addEventListener('click', (event) => {
         hamburgerMenu.classList.remove('open');
     });
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     const commentInput = document.querySelector('#message');
 
     //prevent form default settings
-    formElement.addEventListener('submit', function(e){
+    formElement.addEventListener('submit', function (e) {
         e.preventDefault();
         console.log(formElement)
         const name = nameInput.value;
@@ -30,4 +30,3 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
 
 })
-
