@@ -436,7 +436,7 @@ span {
 }
 
 .contactContent {
-  margin: 100px 0px;
+  margin: 100px 0px 120px 0px;
 }
 .contactContent ul {
   display: -webkit-box;
@@ -467,7 +467,7 @@ span {
   background-color: #220303;
   max-width: 800px;
   position: absolute;
-  bottom: 0;
+  bottom: 2%;
   left: 35%;
   padding: 35px 35px;
   -webkit-box-shadow: 20px 20px 1px #ff8327;
@@ -693,8 +693,9 @@ textarea {
 }
 
 footer {
+  background-color: rgb(46, 44, 44);
   text-align: center;
-  margin: 5px 0;
+  margin-top: 50px;
 }
 
 .blogHeader {
