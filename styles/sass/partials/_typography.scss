@@ -1,59 +1,58 @@
 html {
-    font-size: 125%;
+  font-size: 125%;
 }
 
-body{
-    font-family: $secondaryFont;
-    @include fontSize(39); 
-    color: $primary;
+body {
+  font-family: $secondaryFont;
+  @include fontSize(39);
+  color: $primary;
 }
 
-h1{
-    font-family: $primaryFont;
-    color: $tertiary;
-    @include fontSize(261.4)
-
+h1 {
+  font-family: $primaryFont;
+  color: $tertiary;
+  @include fontSize(261.4);
 }
 
-h2{
-    @include fontSize(68);
+h2 {
+  @include fontSize(68);
 }
 
-a{
-    text-decoration: none;
-    color: inherit;
-    @include fontSize(30);
-    line-height: 29px;
-    letter-spacing: 1.9px;
+a {
+  text-decoration: none;
+  color: inherit;
+  @include fontSize(30);
+  line-height: 29px;
+  letter-spacing: 1.9px;
 }
 
 .logo {
-    font-family: $primaryFont;
-    text-transform: capitalize;
-    @include fontSize(45);
-    letter-spacing: 0.5px;
+  font-family: $primaryFont;
+  text-transform: capitalize;
+  @include fontSize(45);
+  letter-spacing: 0.5px;
 }
 
-span{
-    color: $primary;
-    font-family: $secondaryFont;
-    @include fontSize(83.2);
-    letter-spacing: 4px;
+span {
+  color: $primary;
+  font-family: $secondaryFont;
+  @include fontSize(83.2);
+  letter-spacing: 4px;
 }
 
-p{
-    letter-spacing: 1.9px;
-    line-height: 30px;
+p {
+  letter-spacing: 1.9px;
+  line-height: 30px;
 }
 
-button{
-    color: $primary;
-    font-family: $primaryFont;
-    @include fontSize(30);
-    letter-spacing: 1px;
+button {
+  color: $primary;
+  font-family: $primaryFont;
+  @include fontSize(30);
+  letter-spacing: 1px;
 }
 
-footer{
-    @include fontSize(25);
-    letter-spacing: 1px;
+footer {
+  @include fontSize(25);
+  letter-spacing: 1px;
 }

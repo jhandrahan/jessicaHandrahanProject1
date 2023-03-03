@@ -1,54 +1,51 @@
-body{
-    background-color:$quaternary;
+body {
+  background-color: $quaternary;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-a{
-    &:hover,
-    &:focus {
-        color: $secondary;
-        text-decoration: underline;
-    }
+a {
+  &:hover,
+  &:focus {
+    color: $secondary;
+    text-decoration: underline;
+  }
 }
-
 
 img {
-    max-width: 100%;
-    display: block; //prevent underneath spacing
+  max-width: 100%;
+  display: block; //prevent underneath spacing
 }
 
 .wrapper {
-    max-width: 1280px;
-    width: 90%;
-    margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 button {
-    
-    background-color: $secondary;
-    border: none;
-    cursor: pointer;
-    padding: 2px 30px;
-    transition: 0.3s;
+  background-color: $secondary;
+  border: none;
+  cursor: pointer;
+  padding: 2px 30px;
+  transition: 0.3s;
 
-        &:hover,
-        &:focus {
-            background-color: $primary;
-            color: $secondary;
-        }
+  &:hover,
+  &:focus {
+    background-color: $primary;
+    color: $secondary;
+  }
 }
 
-#hamburger{
+#hamburger {
+  background-color: black;
+  &:hover,
+  &:focus {
     background-color: black;
-        &:hover,
-        &:focus {
-            background-color: black;
-            color: $secondary;
-        }
+    color: $secondary;
+  }
 }

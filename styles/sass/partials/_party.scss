@@ -1,25 +1,23 @@
-.party{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px 0;
-    margin-top: 50px;
-    margin-bottom: 25px;
+.party {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  margin-bottom: 25px;
 
-    h2{
-        margin: 10px 0;
-        color: $tertiary;
+  h2 {
+    margin: 10px 0;
+    color: $tertiary;
+  }
 
-    }
+  p {
+    margin: 0;
+    padding: 0 100px;
+    text-align: center;
+  }
 
-    p{
-        margin: 0;
-        padding: 0 100px;
-        text-align: center;
-    }
-
-    button{
-        margin-top: 40px;
-    }
-   
+  button {
+    margin-top: 40px;
+  }
 }

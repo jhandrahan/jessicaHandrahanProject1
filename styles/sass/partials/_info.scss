@@ -1,52 +1,46 @@
-.info{
-    padding: 100px 0;
+.info {
+  padding: 100px 0;
 }
-.infoContent{
-    display: flex;
-    flex-wrap: wrap;
+.infoContent {
+  display: flex;
+  flex-wrap: wrap;
 
-    h2{
-        margin-bottom: 0;
+  h2 {
+    margin-bottom: 0;
 
-        i.fa-solid.fa-file  {
-                padding-left: 7.5px;
-                padding-right: 7px;
-            }
-        i.fa-solid.fa-users {
-            padding-left:2.5px;
-            padding-right: 3px;
-        }
-
-        i.fa-solid.fa-house-chimney{
-            padding-left: 3.75px;
-            padding-right: 4px;
-
-        }
+    i.fa-solid.fa-file {
+      padding-left: 7.5px;
+      padding-right: 7px;
+    }
+    i.fa-solid.fa-users {
+      padding-left: 2.5px;
+      padding-right: 3px;
     }
 
-    p{
-        margin-left: 50px;
-        margin-top: 0;
-        padding-right: 15px;   
+    i.fa-solid.fa-house-chimney {
+      padding-left: 3.75px;
+      padding-right: 4px;
     }
-        
-    
+  }
+
+  p {
+    margin-left: 50px;
+    margin-top: 0;
+    padding-right: 15px;
+  }
 }
 
 .infoContent li {
-    width: 50%;
+  width: 50%;
 }
 
 .infoContent i {
-    font-size: 0.9rem;
-    padding: 5px;
-    background-color: $secondary;
-    border: 3px solid $secondary;
-    border-radius: 50%;
-    position: relative;
-    bottom: 5px;
-    right: 4px;
+  font-size: 0.9rem;
+  padding: 5px;
+  background-color: $secondary;
+  border: 3px solid $secondary;
+  border-radius: 50%;
+  position: relative;
+  bottom: 5px;
+  right: 4px;
 }
-
-
-

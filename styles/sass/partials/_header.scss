@@ -1,41 +1,38 @@
 header {
-    background-image: url(../assets/home-image-1.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    width: 100vw;
-    position: relative;
+  background-image: url(../assets/home-image-1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
 }
 
 h1,
-span{
-    margin-bottom: 0;
-    display: block;
-    z-index: 3;
-    
+span {
+  margin-bottom: 0;
+  display: block;
+  z-index: 3;
 }
 
-span{
-    position: relative;
-    bottom: 83px;
-    left: 6px;
+span {
+  position: relative;
+  bottom: 83px;
+  left: 6px;
 }
 
-.flex{
-    display: flex;
-    justify-content: center;
-    
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
-.headerBox{
-    position: absolute;
-    width: 50%;
-    bottom: -100px;
-    right: 0;
+.headerBox {
+  position: absolute;
+  width: 50%;
+  bottom: -100px;
+  right: 0;
 }
 
-.headerBox img{
-    width:100%;
-    z-index: 1;
-    
+.headerBox img {
+  width: 100%;
+  z-index: 1;
 }

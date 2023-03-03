@@ -1,20 +1,19 @@
 nav ul {
-    display: flex;
-    text-transform: uppercase;
-    justify-content: center;
-
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
 }
 
 nav li {
-    margin: 10px 40px;
+  margin: 10px 40px;
 }
 
 li:first-child a {
-    color: $tertiary;
+  color: $tertiary;
 
-    &:hover,
-    &:focus {
-        color: $secondary;
-        text-decoration: underline;
-    }
+  &:hover,
+  &:focus {
+    color: $secondary;
+    text-decoration: underline;
+  }
 }

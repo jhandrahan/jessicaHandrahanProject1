@@ -1,98 +1,89 @@
-.contactHeader{
-    background-image: url(../assets/contact-header-1.jpg);
-    background-size: cover;
-    background-position: center;
-    min-height: 50vh;
-    width: 100vw;
-   
-    li:last-child a {
-            color: $tertiary;
-    }
-        li:first-child a {
-            color: $primary;
-        }
-    h2{
-        letter-spacing: 0.2rem;
-        margin-top: 90px;
-        font-size: 3rem;
-        margin-left: 40px;
-    }
+.contactHeader {
+  background-image: url(../assets/contact-header-1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+  width: 100vw;
+
+  li:last-child a {
+    color: $tertiary;
+  }
+  li:first-child a {
+    color: $primary;
+  }
+  h2 {
+    letter-spacing: 0.2rem;
+    margin-top: 90px;
+    font-size: 3rem;
+    margin-left: 40px;
+  }
 }
 
-.contactContent{
-    margin: 100px 0px 120px 0px;
+.contactContent {
+  margin: 100px 0px 120px 0px;
 
+  ul {
+    display: flex;
 
-    ul{
-        display: flex;
+    a {
+      color: $primary;
 
-        a{
-            color: $primary;
-
-            &:hover,
-            &:focus {
-            color: $secondary;
-            text-decoration: underline;
-            }
-        }
+      &:hover,
+      &:focus {
+        color: $secondary;
+        text-decoration: underline;
+      }
     }
+  }
 
-    i{
-        font-size: 1rem;
-        margin: 0px 5px;
-        
-    } 
-
-    
+  i {
+    font-size: 1rem;
+    margin: 0px 5px;
+  }
 }
-.contactInfo{
-    margin-top: 15px;
+.contactInfo {
+  margin-top: 15px;
 }
 
 .contactInfo p {
-    margin: 0;
-    
-    
+  margin: 0;
 }
 //Contact form styling
-.form{
-    background-color: $quinary;
-    max-width: 800px;
-    position: absolute;
-    bottom: 2%;
-    left: 35%;
-    padding: 35px 35px;
-    box-shadow: 20px 20px 1px $tertiary;
-    
+.form {
+  background-color: $quinary;
+  max-width: 800px;
+  position: absolute;
+  bottom: 2%;
+  left: 35%;
+  padding: 35px 35px;
+  box-shadow: 20px 20px 1px $tertiary;
 }
 
 input,
 textarea,
-select{
-    background-color: $quinary;
-    color: $primary;
-    border: 0;
-    border-bottom: 1px solid $primary;
-    font-family: $secondaryFont;
-    &::placeholder{
-        opacity: 1;
-    }
+select {
+  background-color: $quinary;
+  color: $primary;
+  border: 0;
+  border-bottom: 1px solid $primary;
+  font-family: $secondaryFont;
+  &::placeholder {
+    opacity: 1;
+  }
 }
 
-input{
-    width: 49%;
-    padding-left: 15px;
+input {
+  width: 49%;
+  padding-left: 15px;
 }
 
 textarea {
-    border: 1px solid $primary;
-    margin-top: 35px;
-    width: 100%;
-    padding-left: 15px;
-  
+  border: 1px solid $primary;
+  margin-top: 35px;
+  width: 100%;
+  padding-left: 15px;
 }
 .formBtn {
-    width: 100%;
-    margin-top: 35px;
+  width: 100%;
+  margin-top: 35px;
 }
-

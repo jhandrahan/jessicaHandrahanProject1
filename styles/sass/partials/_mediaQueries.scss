@@ -1,250 +1,237 @@
 @media (max-width: 2000px) {
-    #hamburger {
-        display: none;
-    }
+  #hamburger {
+    display: none;
+  }
 }
-@media (max-width: 1000px){
-//Index Page
-//header section
-    .headerBox img{
-        display: none;
-    }
-
-//location section
-    .flexBox{
-        flex-direction: column;
-        margin: 0 100px;
-
-        .textContainer{
-            width: 100%;
-            padding: 0 25px;
-            text-align: center;
-        }
-
-        .textContainer h2{
-            text-align: center;
-        }
-
-        .btn1{
-            text-align: center;
-        }
-    }
-
-
-//events section
-
-    .flexContainer{
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: center;
-        
-        .textContainerEvents{
-            width: 100%;
-            margin-top: 20px;
-        }
-    }
-
-//gallery section
-
-    .galleryFlex{
-        justify-content: center;
-
-        
-    }
-
-//Contact Page
-    .contactContent{
-        margin: 0;
-
-        .contactInfo{
-            margin-top: 0;
-            margin-bottom: 15px;
-        }
-    }
-    .contactHeader h2{
-        text-align: center;
-    }
-
-//Contact Form
-    .form{
-        position: static;
-        box-shadow: none;
-
-        input{
-            width: 100%;
-            
-        }
-    }
-
-
-}
-//blog page 
-@media(max-width: 800px){
-    .blogHeader h2{
-        margin-left: 0;
-        text-align: center;
-        
-    }
-    .blogContainer{
-        display: contents;
-
-        aside{
-            margin: 0;
-            padding: 50px 0;
-        }
-
-        .imgBlogContainer img{
-            position: static;
-            margin: auto;
-        }
-
-        .asideTextContainer{
-            text-align: center;
-        }
-    }
-
-    .blogMenu{
-        margin: 0;
-
-        .menuImgContainer img{
-            position: static;
-            box-shadow: none;
-        }
-
-        .menuTextContainer{
-            border: 5px solid $tertiary;
-            margin: 0;
-            padding: 0 25px;
-
-            h2{
-                margin-top: 5px;
-            }
-        }
-    }
-
-    .comment,
-    .commentForm{
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-
-    .commentForm input{
-        width: 100%;
-    }
-}
-
-
-
-@media(max-width: 600px){
-    .logo{
-        display: none;
-    }
-}
-
-
-@media(max-width: 470px){
-    //header 
-   nav li{
-    margin: 10px;
-   }
-
-   h1{
-    
-    text-align: center;
-   }
-   #hamburger {
-       display: block;
-
-   }
-
-   .slideOutNav {
-       background-color: black;
-       color: #fff;
-       min-height: 100vh;
-       position: fixed;
-       top: 0;
-       z-index: 20;
-       left: -750px;
-       transition: 0.5s;
-
-       .navBar ul {
-           display: flex;
-           flex-direction: column;
-
-           .logo {
-               display: none;
-           }
-       }
-   }
-
-   .slideOutNav.open {
-       left: 0;
-   }
-
-//info section
-
-   .info{
-    padding: 50px 0;
-   }
-
-  .infoContent li {
-      width: 100%;
+@media (max-width: 1000px) {
+  //Index Page
+  //header section
+  .headerBox img {
+    display: none;
   }
 
-    .infoContent h2{
-        margin-top: 0;
+  //location section
+  .flexBox {
+    flex-direction: column;
+    margin: 0 100px;
+
+    .textContainer {
+      width: 100%;
+      padding: 0 25px;
+      text-align: center;
     }
 
-//location section
-    .planAhead{
-        margin-top: 0;
+    .textContainer h2 {
+      text-align: center;
     }
 
-    .flexBox{
-        margin: 0;
+    .btn1 {
+      text-align: center;
     }
-    .textContainer{
-        margin-top: 50px;
-        margin-bottom: 20px;
+  }
+
+  //events section
+
+  .flexContainer {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+    .textContainerEvents {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+
+  //gallery section
+
+  .galleryFlex {
+    justify-content: center;
+  }
+
+  //Contact Page
+  .contactContent {
+    margin: 0;
+
+    .contactInfo {
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+  }
+  .contactHeader h2 {
+    text-align: center;
+  }
+
+  //Contact Form
+  .form {
+    position: static;
+    box-shadow: none;
+
+    input {
+      width: 100%;
+    }
+  }
+}
+//blog page
+@media (max-width: 800px) {
+  .blogHeader h2 {
+    margin-left: 0;
+    text-align: center;
+  }
+  .blogContainer {
+    display: contents;
+
+    aside {
+      margin: 0;
+      padding: 50px 0;
     }
 
-    
-//party section
-    .party{
-        margin-top: 30px;
+    .imgBlogContainer img {
+      position: static;
+      margin: auto;
     }
 
-    .party p{
-        padding: 0;
+    .asideTextContainer {
+      text-align: center;
+    }
+  }
+
+  .blogMenu {
+    margin: 0;
+
+    .menuImgContainer img {
+      position: static;
+      box-shadow: none;
     }
 
-//events section
-    .events{
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-    .flexContainer{
-        margin: 0;
-    }
-    .imgContainer img{
-        margin-right: 0;
-    }
+    .menuTextContainer {
+      border: 5px solid $tertiary;
+      margin: 0;
+      padding: 0 25px;
 
-//gallery Section
-    .galleryFlex{
-        padding: 30px 0;
+      h2 {
+        margin-top: 5px;
+      }
     }
+  }
 
-    .galleryFlex li{
-        margin-top: 20px;
-    }
+  .comment,
+  .commentForm {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .commentForm input {
+    width: 100%;
+  }
 }
 
-@media(max-width: 430px){
-    h1{
-        font-size: 9.5rem;
+@media (max-width: 600px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media (max-width: 470px) {
+  //header
+  nav li {
+    margin: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  #hamburger {
+    display: block;
+  }
+
+  .slideOutNav {
+    background-color: black;
+    color: #fff;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    left: -750px;
+    transition: 0.5s;
+
+    .navBar ul {
+      display: flex;
+      flex-direction: column;
+
+      .logo {
+        display: none;
+      }
     }
-    span {
-       bottom: 70px; 
-    }
+  }
+
+  .slideOutNav.open {
+    left: 0;
+  }
+
+  //info section
+
+  .info {
+    padding: 50px 0;
+  }
+
+  .infoContent li {
+    width: 100%;
+  }
+
+  .infoContent h2 {
+    margin-top: 0;
+  }
+
+  //location section
+  .planAhead {
+    margin-top: 0;
+  }
+
+  .flexBox {
+    margin: 0;
+  }
+  .textContainer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  //party section
+  .party {
+    margin-top: 30px;
+  }
+
+  .party p {
+    padding: 0;
+  }
+
+  //events section
+  .events {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .flexContainer {
+    margin: 0;
+  }
+  .imgContainer img {
+    margin-right: 0;
+  }
+
+  //gallery Section
+  .galleryFlex {
+    padding: 30px 0;
+  }
+
+  .galleryFlex li {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  h1 {
+    font-size: 9.5rem;
+  }
+  span {
+    bottom: 70px;
+  }
 }
